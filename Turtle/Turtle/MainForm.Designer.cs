@@ -30,36 +30,8 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
-            this.mdiManager = new DevExpress.XtraTabbedMdi.XtraTabbedMdiManager(this.components);
-            ((System.ComponentModel.ISupportInitialize)(this.mdiManager)).BeginInit();
+         
             this.SuspendLayout();
-            // 
-            // mdiManager
-            // 
-            this.mdiManager.AllowDragDrop = DevExpress.Utils.DefaultBoolean.True;
-            this.mdiManager.AllowGlyphSkinning = DevExpress.Utils.DefaultBoolean.True;
-            this.mdiManager.AppearancePage.Header.Font = new System.Drawing.Font("Arial", 9F);
-            this.mdiManager.AppearancePage.Header.Options.UseFont = true;
-            this.mdiManager.AppearancePage.HeaderActive.Font = new System.Drawing.Font("Arial", 9F);
-            this.mdiManager.AppearancePage.HeaderActive.Options.UseFont = true;
-            this.mdiManager.AppearancePage.HeaderDisabled.Font = new System.Drawing.Font("Arial", 9F);
-            this.mdiManager.AppearancePage.HeaderDisabled.Options.UseFont = true;
-            this.mdiManager.AppearancePage.HeaderHotTracked.Font = new System.Drawing.Font("Arial", 9F);
-            this.mdiManager.AppearancePage.HeaderHotTracked.Options.UseFont = true;
-            this.mdiManager.AppearancePage.PageClient.Font = new System.Drawing.Font("Arial", 9F);
-            this.mdiManager.AppearancePage.PageClient.Options.UseFont = true;
-            this.mdiManager.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple;
-            this.mdiManager.BorderStylePage = DevExpress.XtraEditors.Controls.BorderStyles.Simple;
-            this.mdiManager.ClosePageButtonShowMode = DevExpress.XtraTab.ClosePageButtonShowMode.InActiveTabPageHeaderAndOnMouseHover;
-            this.mdiManager.CloseTabOnMiddleClick = DevExpress.XtraTabbedMdi.CloseTabOnMiddleClick.OnMouseUp;
-            this.mdiManager.FloatOnDrag = DevExpress.Utils.DefaultBoolean.True;
-            this.mdiManager.HeaderButtons = DevExpress.XtraTab.TabButtons.Close;
-            this.mdiManager.HeaderButtonsShowMode = DevExpress.XtraTab.TabButtonShowMode.WhenNeeded;
-            this.mdiManager.MdiParent = this;
-            this.mdiManager.PageImagePosition = DevExpress.XtraTab.TabPageImagePosition.None;
-            this.mdiManager.PinPageButtonShowMode = DevExpress.XtraTab.PinPageButtonShowMode.InActiveTabPageHeaderAndOnMouseHover;
-            this.mdiManager.UseDocumentSelector = DevExpress.Utils.DefaultBoolean.False;
-            this.mdiManager.UseFormIconAsPageImage = DevExpress.Utils.DefaultBoolean.True;
             // 
             // MainForm
             // 
@@ -73,13 +45,11 @@
             this.Name = "MainForm";
             this.Text = "MFS";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            ((System.ComponentModel.ISupportInitialize)(this.mdiManager)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private DevExpress.XtraTabbedMdi.XtraTabbedMdiManager mdiManager;
     }
 }
